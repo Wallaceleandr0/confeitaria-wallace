@@ -1,0 +1,322 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&display=swap'); /*font-family: 'Carter One', cursive;
+*/
+
+* {
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --rosaEscuro: #610025;
+    --rosaForte: #DE0055;
+    --rosaClaro: #E34481;
+}
+
+.whatsapp-link {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+
+.fa-whatsapp {
+    margin-top: 16px;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    z-index: 1;
+    background-color: var(--rosaEscuro);
+}
+
+.logo {
+    margin-left: 20px;
+    font-family: 'Carter One', cursive;
+    font-style: italic;
+    color: white;
+    font-size: 2rem;
+}
+
+.btn-abrir {
+    color: white;
+    font-size: 25px;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 0px;
+    background-color: var(--rosaEscuro);
+    z-index: 1;
+    overflow: hidden;
+    transition: width 0.3s;
+}
+
+nav a {
+    color: white;
+    font-size: 25px;
+    display: block;
+    padding: 12px 10px 12px 32px;
+}
+
+nav a:hover {
+    color: var(--rosaEscuro);
+    background-color: white;
+}
+
+main {
+    margin: 0;
+    padding: 10px;
+    transition: margin-left 0.5s;
+}
+
+main h1 {
+    padding: 5px;
+    margin-top: 35px;
+    text-align: center;
+    font-family: 'Carter One', cursive;
+    font-size: 3.4rem;
+    color: var(--rosaEscuro);
+    font-style: italic;
+}
+
+#paragrafo-topo {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.entrar-contato {
+    background-color: var(--rosaEscuro);
+    color: white;
+    display: block;
+    margin: 25px auto 0 auto;
+    width: 130px;
+    padding: 20px 35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.entrar-contato:hover {
+    opacity: .8;
+}
+
+img {
+    max-width: 100%;
+}
+
+.cardapio {
+    width: 900px;
+    display: block;
+    margin: 55px auto 0 auto;
+    border-radius: 5px;
+}
+
+.cardapio-2 {
+    display: none;
+}
+
+.linha, .linha-2, .linha-3 {
+    width: 65px;
+    height: 2px;
+    margin: 70px auto 10px auto;
+    background-color: black;
+}
+
+.atualizacao, .depoimentos, .contato {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.bolos-1 {
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px auto 0 auto;
+    flex-wrap: wrap;
+}
+
+.img-p {
+    flex: 1 1 200px;
+}
+
+.bolos-1 img {
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    width: 290px;
+    border-radius: 15px;
+}
+
+
+.img-p p {
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+    padding: 15px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.feedback {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.comentario {
+    margin: 20px auto 0 auto;
+    flex: 1 1 1 300px;
+    padding: 10px;
+    width: 250px;
+    border-radius: 5px;
+    box-shadow: 2px 12px 22px rgba(0, 0, 0, 0.404);
+}
+
+#feed-foto {
+    width: 80px;
+    display: block;
+    margin: 10px auto 0 auto;
+    border-radius: 50%;
+}
+
+.comentario p {
+    margin-top: 10px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+blockquote {
+    margin: 10px auto 0 auto;
+    max-width: 150px;
+    text-align: center;
+}
+
+.star {
+    display: block;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.star img {
+    width: 17px;
+}
+
+.mapa-a img {
+    box-shadow: 1px 1px 22px rgba(0, 0, 0, 0.438);
+    max-height: 100%;
+    width: 700px;
+    display: block;
+    margin: 40px auto 0 auto;
+    border-radius: 10px;
+}
+
+.mapa-a img:hover {
+    opacity: 0.9;
+}
+
+.width-img {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.info {
+    justify-content: space-around;
+    display: flex;
+    max-width: 900px;
+    margin: 35px auto 0 auto;
+    flex-wrap: wrap;
+}
+
+.info-1 {
+    flex: 1 1 220px;
+    margin: 35px auto 0 auto;
+}
+
+.info-1 a {
+    background-color: var(--rosaEscuro);
+    color: white;
+    display: block;
+    width: 130px;
+    padding: 20px 35px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 5px;
+}
+
+.info-1 a:hover {
+    opacity: .8;
+}
+
+.info-1 #p-contato {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.info-1 #p-numero {
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#copy {
+    text-align: center;
+    padding: 30px;
+    font-size: 0.7rem;
+}
+
+footer {
+    text-align: center;
+    background-color: var(--rosaEscuro);
+    height: 28px;
+    width: 100%;
+}
+
+footer a {
+    color: white;
+    font-weight: bolder;
+    display: block;
+    padding-top: 5px;
+}
+
+@media(max-width:565px) {
+    .cardapio {
+        display: none;
+    }
+
+    .cardapio-2 {
+        display: block;
+    }
+}
